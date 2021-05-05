@@ -15,7 +15,7 @@ while True:
     if input1 == "1":
         # for new user update username in file
         newlog = input("USERNAME: ").lower()
-        f = open('project9_users.txt', 'a')
+        f = open('library_users.txt', 'a')
         f.write(f' {newlog}')
         f.close()
         print("Data updating...")
